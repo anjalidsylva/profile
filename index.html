@@ -15,6 +15,27 @@
       line-height: 1.65;
     }
 
+    .nav {
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+
+    .nav a {
+      margin-right: 12px;
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    .nav a:hover {
+      text-decoration: underline;
+    }
+
+    .header {
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 25px;
+      margin-bottom: 40px;
+    }
+
     h1 {
       font-size: 44px;
       margin-bottom: 6px;
@@ -24,7 +45,7 @@
       font-size: 22px;
       font-weight: normal;
       color: #444;
-      margin-bottom: 30px;
+      margin-bottom: 0;
     }
 
     h3 {
@@ -33,12 +54,20 @@
     }
 
     .credibility {
-      border-top: 1px solid #ddd;
-      border-bottom: 1px solid #ddd;
-      padding: 18px 0;
+      background: #fafafa;
+      border-left: 4px solid #1a73e8;
+      padding: 16px 20px;
       margin: 40px 0;
       font-size: 15px;
       color: #444;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
     }
 
     a {
@@ -49,13 +78,34 @@
     a:hover {
       text-decoration: underline;
     }
+
+    .footer {
+      margin-top: 60px;
+      font-size: 14px;
+      color: #666;
+    }
   </style>
 </head>
 
 <body>
 
-  <h1>Anjali D'Sylva</h1>
-  <h2>Fractional Chief of Staff & Executive Operations Partner</h2>
+  <!-- Navigation -->
+  <div class="nav">
+    <a href="index.html">Home</a> ·
+    <a href="experience.html">Experience</a> ·
+    <a href="https://www.linkedin.com/in/anjalidsylva/" target="_blank">LinkedIn</a>
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Anjali D'Sylva</h1>
+    <h2>Fractional Chief of Staff & Executive Operations Partner</h2>
+  </div>
+
+  <!-- Optional headshot (UPLOAD IMAGE FIRST, then uncomment)
+  <img src="headshot.jpg" alt="Anjali D'Sylva"
+       style="max-width:160px; border-radius:50%; margin:20px 0;">
+  -->
 
   <p>
     I support founders and senior leadership teams across the UK and US by
@@ -69,17 +119,17 @@
     action while maintaining discretion, pace, and alignment.
   </p>
 
+  <!-- Credibility strip -->
   <div class="credibility">
-    <strong>Selected experience:</strong>
-    KKR · Estée Lauder Companies · Global Aviation · Consumer & High-Growth
-    Organisations across the UK, US, and India
+    <strong>Selected experience:</strong><br>
+    Private Equity · Global Consumer Brands · Aviation · High-Growth Organisations<br>
+    <em>Including KKR, Estée Lauder Companies, and international organisations</em>
   </div>
 
   <h3>Who I Work With</h3>
   <p>
-    Founders, CEOs, and C-suite executives who value clarity, operational
-    discipline, and a Chief of Staff who operates as a trusted extension of
-    leadership.
+    Founders, CEOs, and C-suite executives who value clarity, strong operational
+    rhythm, and a Chief of Staff who operates as a trusted extension of leadership.
   </p>
 
   <h3>How I Work</h3>
@@ -88,6 +138,14 @@
     and executive enablement, delivered through fractional, retainer, or
     clearly scoped engagements.
   </p>
+
+  <h3>Focus Areas</h3>
+  <ul>
+    <li>Executive decision support and business rhythm</li>
+    <li>Operational clarity across scaling environments</li>
+    <li>Stakeholder coordination and governance</li>
+    <li>Confidential, high-trust leadership support</li>
+  </ul>
 
   <h3>Services</h3>
   <ul>
@@ -99,12 +157,14 @@
 
   <h3>Contact</h3>
   <p>
-    <a href="mailto:anjali_dsylva@hotmail.com">anjali_dsylva@hotmail.com</a>
+    <a href="mailto:anjali_dsylva@hotmail.com">
+      anjali_dsylva@hotmail.com
+    </a>
   </p>
 
-  <p>
-    <a href="experience.html">View Experience →</a>
-  </p>
+  <div class="footer">
+    © Anjali D'Sylva · Fractional Chief of Staff
+  </div>
 
 </body>
 </html>
